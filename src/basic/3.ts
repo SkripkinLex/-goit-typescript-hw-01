@@ -1,5 +1,3 @@
-let something: string | number;
-something = 20;
-type literal = "enable" | "disable";
-let button: literal;
-button = "enable";
+let union: number | string;
+
+let literal: "enable" | "disable";
